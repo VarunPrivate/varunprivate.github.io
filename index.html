@@ -1,0 +1,23 @@
+---
+layout: default
+title: About
+---
+
+{% assign about = site.data.personal.about %}
+
+<div class="row text-center home">
+  <div class="row">
+    <img src="./assets/images/profile.png" alt="Profile picture - Varun Barad" class="center-block">
+  </div>
+  <div class="row">
+    <div class="name">{{about.name}}</div>
+  </div>
+  <div class="row tag-line">
+    <div>{{about.tagLine}}</div>
+  </div>
+  <div class="row about">
+    <div class="col-xs-1"></div>
+    <div class="col-xs-10">{{about.aboutText}}</div>
+    <div class="col-xs-1"></div>
+  </div>
+</div>
