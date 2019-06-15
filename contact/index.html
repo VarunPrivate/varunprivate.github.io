@@ -27,25 +27,29 @@
 
   </div>
   <div class="content row">
-    
+    <div class="page-title col-12 text-center text-uppercase">Contact</div>
 
-<div class="row text-center home">
-  <div class="row">
-    <img src="./assets/images/profile.png" alt="Profile picture - Varun Barad" class="center-block">
+
+
+<div class="col-12 contact-form">
+  <div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5">
+    <form id="contactForm" onsubmit="return submitForm(event)">
+      <div class="form-group">
+        <input type="text" class="form-control" id="name" placeholder="Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" class="form-control" id="email" placeholder="Email" required>
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" id="message" placeholder="Message" required></textarea>
+      </div>
+      <button type="submit" class="submit-button" id="submit">Submit</button>
+    </form>
   </div>
-  <div class="row">
-    <div class="name">Hi, I'm Varun Barad</div>
-  </div>
-  <div class="row"><br></div>
-  <div class="row about">
-    <div class="col-md-3 col-xs-1"></div>
-    <div class="col-md-6 col-xs-10">
-      <p>I enjoy building quality software and learning new skills. I currently work as an Android Developer at <a href="https://www.deliverr.ca/">Deliverr, Canada</a>.</p>
-      <p>Got my Android Developer Nanodegree in January 2018. I have previously worked on apps for a startup, my college and some just for my learning.</p>
-      <p>I have been working on Android stuff for the past 4 years. You can find my resume <a href="./assets/documents/Resume%20-%20Varun%20Barad.pdf">here</a></p>
-    </div>
-    <div class="col-md-3 col-xs-1"></div>
-  </div>
+</div>
+
+<div class="col-12 contact-details">
+  <a href="mailto:varun@varunbarad.com">varun@varunbarad.com</a>
 </div>
 
   </div>
